@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #65a4ec;
+}
+
+/* FORMULÁRIO  */
+
+.form {
+    box-sizing: border-box;
+    background-color: rgb(252, 238, 238);
+    position: absolute;
+    width: 29.3%;
+    top: 244px;
+    left: 455px;
+    padding: 10px;
+    box-shadow: rgb(8, 62, 163) 3px 3px 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.form p {
+    font: normal 19pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgb(20, 111, 196);
+    text-align: center;
+}
+
+.text-box {
+    box-sizing: border-box;
+    position: relative;
+    top: 5px;
+    left: 110px;
+    padding: 5px;
+    border-color: rgb(30, 137, 179);
+    border-style: double;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid rgb(20, 111, 196);
+    padding: 10px;
+    color: rgb(5, 61, 114);
+    text-decoration: none;
+    font-weight: bold;
+    width: 50%;
+    position: relative;
+    left: 94.5px;
+    margin-top: 9px;
+}
+
+.btn::before {
+    content: "⠀";
+    background-color: rgb(252, 238, 238);
+    height: 3px;
+    position: relative;
+    top: -19px;
+    left: -50px;
+    transition: .2s;
+}
+
+.btn:hover::before {
+    content: "⠀";
+    background-color: rgb(252, 238, 238);
+    height: 3px;
+    position: relative;
+    top: -20px;
+    left: 100px;
+    transition: .2s;
+}
+
+.btn::after {
+    content: "⠀";
+    background-color: rgb(252, 238, 238);
+    position: relative;
+    top: 19px;
+    left: 50px;
+    transition: .2s;
+
+}
+
+.btn:hover::after {
+    content: "⠀";
+    background-color: rgb(252, 238, 238);
+    position: relative;
+    left: -100px;
+    transition: .2s;
+}
+
+/*  FIM DO FORMULÁRIO  */
+
+/*  DESIGN DO ÍCONE  */
+.icon {
+    text-align: center;
+    position: absolute;
+    top: 130px;
+    left: 455px;
+    box-sizing: border-box;
+}
+
+#users {
+    width: 350px;
+    color: honeydew;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(2, 87, 167);
+    padding: 25px 25px 25px;
+    box-shadow: rgb(8, 62, 163) 3px 3px 3px;
+}
+/*  FIM DO DESIGN DO ÍCONE  */
